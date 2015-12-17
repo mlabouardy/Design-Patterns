@@ -15,8 +15,7 @@ public class Main {
 		tv.newChannel(new Channel(1923f, "2M"));
 		Iterator iterator=tv.iterator();
 		while(iterator.hasNext()){
-			iterator.next();
-			System.out.println(iterator.current());
+			System.out.println(iterator.next());
 		}
 	}
 
